@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.card {
+    width: 80px;
+    height: 120px;
+    border: 4px solid rgba(0, 106, 124, 0.774);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 5px 10px 5px  #c2c2c2;
+    background-color:white;
+    cursor: pointer;
+    color: rgb(0, 155, 167);
+
+}
+
+.card:hover {
+    background-color: #e73434;
+    color: white;
+    border-color: black;
+}
+
+.card .text {
+    user-select: none;
+    pointer-events:none;
+}
+
+.card span {
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    position: relative;
+    top: 25px;
+}
+
+.card-selected {
+    background-color: #282c34;
+    color: white;
+    border-color: black;
+}

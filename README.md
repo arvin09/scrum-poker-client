@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Scrum Poker Client (Work In Progress)
+
+This is the front end repo for Scrum Poker which is a realtime application for scrum master / project owner to collaborate team estimates for a given story or task at one place.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
