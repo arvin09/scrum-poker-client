@@ -57,7 +57,7 @@ export default class App extends Component {
   };
 
   postData = (message) => {
-    return fetch("http://localhost:3001/users", {
+    return fetch("/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -69,7 +69,7 @@ export default class App extends Component {
   };
 
   getData = (roomId) => {
-    fetch(`http://localhost:3001/users/${roomId}`)
+    fetch(`/users/${roomId}`)
       .then((response) => response.json())
       .then((response) => {
         console.log(response);
